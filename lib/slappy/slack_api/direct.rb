@@ -1,8 +1,8 @@
 module Slappy
   module SlackAPI
     class Direct < Base
-      self.api_name = 'im'
-      self.list_name = 'ims'
+      self.api_name = 'conversations'
+      self.list_name = 'channels'
       self.monitor_event = 'im_open'
     end
   end
